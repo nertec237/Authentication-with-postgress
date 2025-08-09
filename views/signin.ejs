@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  </head>
+  <body>
+    
+ <%- include("partials/header.ejs") %>
+ <div class="center">
+        <div class="sigin-container">
+  
+            <form action="/sign" method="post" >
+                <div class="signin-ff">
+                    login
+                 </div>
+                <div class="s-name">
+                    <label for="name">Email:  </label>
+                    <input type="email" name="usersemail" id="name" placeholder="Enter Name" >
+                </div>
+        
+                <div class="s-password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="usersignpassword" id="password" placeholder="Enter Password" >
+                </div>
+        
+                <div class="s-s">
+                    <input type="submit" name="submit" id="s-ss" >
+                </div>
+                <hr color="blue">
+        
+                <div class="signin-f">
+                    <div > <a class="c-t" href="/registration" > create an account </a></div>
+                    <div class="f-p">forget password</div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+<%- include("partials/footer.ejs") %>
+
+  </body>
+</html>
+    
+   

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="index.css">
+ 
+  </head>
+  <%- include("partials/header.ejs") %>
+  <body>
+
+    <div class="center">
+        <div class="sigin-container">
+  
+            <form action="/registration" method="post" class="signin-fff" >
+                <div class="signin-ff">
+                    Create an account
+                 </div>
+                <div class="s-name">
+                    <label for="name">Name:  </label>
+                    <input type="text" name="usersname" id="name" placeholder="Enter Name" >
+                </div>
+                <div class="s-name">
+                    <label for="email">Email:  </label>
+                    <input type="email" name="usersemail" id="email" placeholder="Enter email" >
+                </div>
+                <div class="s-name">
+                    <label for="level">Level:  </label>
+                    <input type="text" name="userslevel" id="level" placeholder="200" >
+                </div>
+        
+                <div class="s-password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="userspassword" id="password" placeholder="Enter Password" >
+                </div>
+        
+                <div class="s-s">
+                    <input type="submit" name="submit" value="Register" id="s-ss" >
+                </div>
+                <hr color="blue">
+        
+                <div class="signin-f">
+                    <div >
+                        <a class="c-t" href="/signin"  > Already have account</a>
+                    </div>
+                    <div class="f-p">Generate password</div>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+  <%- include("partials/footer.ejs") %>
+</html>

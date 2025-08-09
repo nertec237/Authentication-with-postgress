@@ -1,0 +1,174 @@
+body{background-image: url('./photo/images.png');
+    background-size: 100px;
+    background-position: center;
+
+} header{
+    background-color: rgb(240, 248, 255);
+    padding-top: 15px;
+
+}
+.heading-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-container{
+    display: inline-flex;
+    justify-content:space-between;
+    gap: 10px;
+   
+}
+.nav-bar-one{
+    text-decoration: dashed;
+   
+}
+.nav-bar-two{
+    text-decoration: dashed;
+   
+}
+.nav-bar-four{
+    text-decoration: dashed;
+   
+}
+.nav-bar-three{
+    text-decoration: dashed;
+   
+}
+.nav-bar-four{
+    text-decoration: dashed;
+   
+}
+.nav-bar-five{
+    text-decoration: dashed;
+   
+}
+.system{
+    
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+   
+    
+}
+.system-one{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; padding-bottom: 30px;
+}
+.system-two{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; padding-bottom: 30px;
+}
+.system-three{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; padding-bottom: 30px; 
+}
+.system-four{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; padding-bottom: 30px; 
+}
+input{
+    border: none;
+}
+.l-g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font:bolder;
+}
+.s-name{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: aliceblue;
+}
+.s-password{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#s-ss{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font:bolder;
+    text-size-adjust:inherit;
+    border-radius: 5px;
+    background-color: blue
+}
+.c-t{
+    color: rgb(35, 0, 236);
+}
+.f-p{
+    color: rgb(243, 7, 7);
+}
+.signin-ff{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:black;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 5px ;
+  
+} 
+
+.sigin-container{
+margin-bottom: 40px;
+   box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+   justify-content: center;
+   align-items: center;
+    display: inline-flex;
+    text-align: center;
+    background-color: rgb(4, 219, 101);
+
+}
+.signin-f{
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.intro{
+    display: flex;
+}
+#p-f{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.center{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+.under {    
+    padding-left: 10px;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(64, 64, 250);
+}
+.foot{
+    color: black;
+display: inline-flex;
+justify-content: space-between;
+gap: 50px;
+padding-top: 20px;
+}
+.contact{
+padding-top: 20px;
+}
+.e{
+    color: black;
+}
